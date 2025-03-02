@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf0f6;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #ff8fab, #ff77a9);
+  color: white;
+  padding: 30px 0;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 60px 0;
+  background: white;
+  margin: 30px auto;
+  width: 85%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titles */
+h2 {
+  font-size: 2rem;
+  color: #ff77a9;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(255, 120, 160, 0.2);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.project h3 {
+  color: #ff77a9;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: linear-gradient(135deg, #ff8fab, #ff77a9);
+  color: white;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Contact Section */
+#contact a {
+  color: #ff77a9;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #ff77a9;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
